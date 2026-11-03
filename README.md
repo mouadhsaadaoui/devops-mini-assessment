@@ -61,6 +61,11 @@ Verify:
 - Push your completed work to your GitHub repository.
 - Make sure your feature branch is available remotely.
 - Be ready to demonstrate the running application.
-- Be prepared to explain your Docker configuration and troubleshooting decisions.
 
-Good luck!
+
+
+## Deployment Notes
+
+The application runs inside a Docker container.
+
+Nginx acts as a reverse proxy for the Flask application.
